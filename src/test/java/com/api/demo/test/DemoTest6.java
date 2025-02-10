@@ -4,7 +4,7 @@ public class DemoTest6 {
 
 	public static void main(String[] args) {
 		
-		int [] arr= {2,4,6,8};
+		int [] arr= {2,4,6,8,10};
 		
 		Boolean allEven=true;
 		

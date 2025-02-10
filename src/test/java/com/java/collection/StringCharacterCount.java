@@ -18,11 +18,7 @@ public class StringCharacterCount {
 			if (ch !=' ') {
 				System.out.println(countCharacters.put(ch, countCharacters.getOrDefault(ch, 0)+1));
 		}
-		
-		
-		
-		
-		
+				
 		
 		}		
 		
