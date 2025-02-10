@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="EWB API Test Suite">
+	<listeners>
+		<listener class-name="com.api.automation.reports.TestListners" />
+	</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.api.automation.ewb.test.AuthenticationTest"/>
+      <!--<methods>
+		<include name="verifyPostOnSearchRequest" />
+		</methods>-->
+	   <class name="com.api.automation.ewb.test.GenerateEwayBill"/>
+	   <class name="com.api.automation.ewb.test.GetEwayBillDetailsTest"/>		
+	   <class name="com.api.automation.ewb.test.EwayBillUpdateVehicleTest"/>
+	   <class name="com.api.automation.ewb.test.EwayBillupdateTransporterTest"/>
+	   <class name="com.api.automation.ewb.test.GetEwayBillDetailsTest"/>		
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- EWB API Test Suite -->

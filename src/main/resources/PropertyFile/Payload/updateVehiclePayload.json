@@ -1,0 +1,17 @@
+{
+  "data": {
+    "supplyTypeCode": "O",
+    "gstin": "05AAACC2870R1ZD",
+    "doc_no": "EWB31123",
+    "ewbNo": "1234",
+    "vehicleNo": "MH20FG4545",
+    "fromPlace": "Mumbai",
+    "fromState": "05",
+    "reasonCode": "1",
+    "reasonRem": "check status ",
+    "transDocNo": "123456",
+    "transDocDate": "03/11/2023",
+    "transMode": "4",
+    "vehicleType": "O"
+  }
+}
