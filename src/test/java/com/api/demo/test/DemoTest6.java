@@ -14,7 +14,7 @@ public class DemoTest6 {
 	    		 break;
 	    	 }
 	     }
-	    		 System.out.println(allEven);	    	 
+	    		 System.out.println("Print the Output : " +allEven);	    	 
 	     	
 	}
 }
