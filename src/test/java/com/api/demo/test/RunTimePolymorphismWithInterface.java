@@ -19,7 +19,7 @@ class Car implements Vehicle{
 public class RunTimePolymorphismWithInterface {
 
 	public static void main(String[] args) {
-		Vehicle bike=new Bike(); //polymorphism
+		Vehicle bike=new Bike(); //polymorphism feature
 		bike.start();
 		Vehicle car=new Car();
 		car.start();
