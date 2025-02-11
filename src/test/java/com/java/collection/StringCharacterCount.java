@@ -7,22 +7,23 @@ import java.util.Map;
 public class StringCharacterCount {
 
 	public static void main(String[] args) {
-
-		String str="Hello Welcome to Java World";
-		str=str.toLowerCase();
-		char [] arrayString=str.toCharArray();
-		System.out.println(arrayString);
-		Map<Character, Integer> countCharacters=new HashMap<Character, Integer>();
 		
-		for (char ch:arrayString) {
+		String str="Hello My Name is Shankar Jha";
+	
+		
+		HashMap<Character, Integer> countcharacter=new HashMap<Character, Integer>();
+		
+		for(char ch: str.toCharArray()) {
 			if (ch !=' ') {
-				System.out.println(countCharacters.put(ch, countCharacters.getOrDefault(ch, 0)+1));
+				countcharacter.put(ch, countcharacter.getOrDefault(ch,0)+1);
+			}
 		}
-				
 		
+		// print the character
+		System.out.println("Print the repetition of character");
+		for(char key: countcharacter.keySet()) {
+			System.out.println(key+ ":" +countcharacter.get(key));
 		}		
-		
-		
-	}
 
+	}
 }
