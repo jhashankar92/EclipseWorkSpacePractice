@@ -8,22 +8,19 @@ public class StringCharacterCount {
 
 	public static void main(String[] args) {
 		
-		String str="Hello My Name is Shankar Jha";
-	
+		String str="Aaabbbccddffrr";
+		HashMap<Character, Integer> countCharacter=new HashMap<Character, Integer>();
 		
-		HashMap<Character, Integer> countcharacter=new HashMap<Character, Integer>();
-		
-		for(char ch: str.toCharArray()) {
-			if (ch !=' ') {
-				countcharacter.put(ch, countcharacter.getOrDefault(ch,0)+1);
+		for(int i=0;i<str.length();i++) {
+			char ch=str.charAt(i);
+			if (ch!=' ') {
+				countCharacter.put(ch, countCharacter.getOrDefault(ch, 0)+1);				
 			}
 		}
-		
-		// print the character
-		System.out.println("Print the repetition of character");
-		for(char key: countcharacter.keySet()) {
-			System.out.println(key+ ":" +countcharacter.get(key));
+			System.out.println("Print the Occurence of characters");
+			for (char key:countCharacter.keySet()) {
+				System.out.println(key+ "==>" +countCharacter.get(key));
+			}			
 		}		
-
 	}
-}
+
