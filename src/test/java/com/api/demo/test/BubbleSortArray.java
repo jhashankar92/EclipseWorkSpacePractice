@@ -19,7 +19,7 @@ public class BubbleSortArray {
 				}								
 			}			
 		}
-		System.out.println("Bubble Sort Array : " + Arrays.toString(arr));
+		System.out.println("Bubble Sort Array Output : " + Arrays.toString(arr));
 					
 		}		
 }
