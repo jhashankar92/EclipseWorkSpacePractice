@@ -6,28 +6,21 @@ public class BubbleSortArray {
 
 	public static void main(String[] args) {
 		
-		int arr[]= {5,3,8,1,2,2};
+		int arr[]= {5,3,8,1,2,2};	
+//		Arrays.sort(arr);                  // Step 1
+//		System.out.println("print : " + Arrays.toString(arr));    //step 2
 		
-		Arrays.sort(arr);   //Step 1 for sorting bubble
-		System.out.println("Sorted Array With Collection Method : " +Arrays.toString(arr)); //step 2 for sorting bubble
-		
-		
-		//bubble sort logic
-		for(int i=0;i<arr.length-1;i++) {
-		//	System.out.println("Print i : " +i);
-			for (int j=0;j<arr.length-1-i;j++) {
-			//	System.out.println(" Print value of j :" +j);
-				if(arr[j]> arr[j+1]) {
-				int temp=arr[j];	
-				arr[j]=arr[j+1];
-				arr[j+1]=temp;
-				
-				}
-				
-				}		
-			}
+		for (int i=0; i<arr.length-1; i++) {
+			for(int j=0;j<arr.length-1-i ;j++) {
+				if (arr[j]>arr[j+1]) {
+					int temp=arr[j];
+					arr[j]=arr[j+1];
+					arr[j+1]=temp;		
+				}								
+			}			
+		}
 		System.out.println("Bubble Sort Array : " + Arrays.toString(arr));
-		
+					
 		}		
 }
 
