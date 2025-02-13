@@ -9,20 +9,14 @@ import java.util.stream.Collector;
 public class DemoTest7 {
 
 	public static void main(String[] args) {
-
-		int arr[] = { 2, 4, 6, 8, 10,13};
-		boolean allEven=true;
-		
-		for (int num :arr) {
-			if (num %2!=0) {  //if any number is odd
-				allEven=false;
-				break;
-			}
-			
-		}
-		
-		System.out.print(allEven);
-			
-
+           
+       Integer [] arry= {2,4,5,8,22};
+           Arrays.sort(arry);
+       System.out.println("Print the array in Ascending Order: " +Arrays.toString(arry));
+       
+       Arrays.sort(arry, Collections.reverseOrder());
+       System.out.println("Print the array in Descending Order: " +Arrays.toString(arry));
+       
+       			
 	}
 }

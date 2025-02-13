@@ -1,14 +1,18 @@
 package com.api.demo.test;
 
 import java.util.Arrays;
+import java.util.Collections;
 
 public class BubbleSortArray {
 
 	public static void main(String[] args) {
 		
-		int arr[]= {5,3,8,1,2,2};	
-//		Arrays.sort(arr);                  // Step 1
-//		System.out.println("print : " + Arrays.toString(arr));    //step 2
+		Integer arr[]= {5,3,8,1,2,2};	
+//		Arrays.sort(arr);                  // Step 1 of approach1
+//		System.out.println("print : " + Arrays.toString(arr));    //step 2 of approach 1
+		 
+//		 Arrays.sort(arry, Collections.reverseOrder());         To print the array in descending order
+//	       System.out.println("Print the array in Descending Order: " +Arrays.toString(arry));  To print the array in descending order
 		
 		for (int i=0; i<arr.length-1; i++) {
 			for(int j=0;j<arr.length-1-i ;j++) {
