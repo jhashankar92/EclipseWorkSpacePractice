@@ -6,10 +6,10 @@ public class DemoTest6 {
 		
 		int [] arr= {2,4,6,8,10};
 		
-		Boolean allEven=true;
+		Boolean allEven=true;  //start assuming all number are even
 		
 	     for(int num:arr) {
-	    	 if (num % 2!=0) {
+	    	 if (num % 2!=0) {   //if any number is odd
 	    		 allEven=false;
 	    		 break;
 	    	 }
