@@ -9,7 +9,7 @@ public class StringCharacterCount {
 	public static void main(String[] args) {
 
 		// Step 1: Define a string
-		String str = "Aaabbbccddffrr";
+		String str = "Hello";
 
 		// Step 2: Initialize a HashMap to store character occurrences
 		HashMap<Character, Integer> countCharacter = new HashMap<Character, Integer>();
