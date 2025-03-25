@@ -1,26 +1,26 @@
 package com.api.demo.test;
+
 import java.text.DecimalFormat;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.LinkedHashSet;
 
 public class JavaPractise {
-	
-	public static int getFactorial(int num) {
-		
-		int fact=1;
-		
-		for(int i=1;i<=num;i++) {
-			
-	     fact=fact*i;	
-			
-		}	
-		return fact;
-	}
-	
-	
+
 	public static void main(String args[]) {
+
+		String str = "aaabbccceee";
+		char [] ch=str.toCharArray();
+		System.out.println("Value of str : "+Arrays.toString(ch));
+
+		LinkedHashSet<Character> uniqueCharacter = new LinkedHashSet<Character>();
+				
+		for(char c:ch) {
+			uniqueCharacter.add(c);
+		}
 		
-		System.out.println(+getFactorial(6));
+           for(char key:uniqueCharacter) {
+        	   System.out.println(key);
+           }
 	}
 }

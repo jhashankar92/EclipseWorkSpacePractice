@@ -18,12 +18,7 @@ public class SwappingOfNumber {
 		
 		
 		System.out.println("After Swap: a= " +a + ",b=" +b);
-		
-		
-		
-		
-		
-		
+	
 		
 		
 	}
